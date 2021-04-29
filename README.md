@@ -1,6 +1,6 @@
 # Sciware Testing Examples and Exercises
 
-[![](https://github.com/flatironinstitute/sciware-testing-python/actions/workflows/exercise.yml/badge.svg)](https://github.com/flatironinstitute/sciware-testing-python/actions)
+[![](https://github.com/ahbarnett/sciware-testing-python/actions/workflows/exercise.yml/badge.svg)](https://github.com/ahbarnett/sciware-testing-python/actions)
 [![codecov](https://codecov.io/gh/flatironinstitute/sciware-testing-python/branch/main/graph/badge.svg?token=4z1jy9YqIV)](https://codecov.io/gh/flatironinstitute/sciware-testing-python)
 
 This is an example repository for writing tests, for the Sciware Testing session. 
