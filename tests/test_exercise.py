@@ -1,5 +1,8 @@
 import pytest
 from sciware_testing_python import sum_numbers, add_vectors
+from numpy import random as r
+
+# must start with test_*
 
 def test_sum_numbers_123():
     # basic test to see if we get the expected answer for a simple case.
@@ -8,11 +11,12 @@ def test_sum_numbers_123():
 
 def test_sum_numbers_yours():
     # write another test of the sum_numbers function
-    pass
+    x = r.rand(1000000)
+    assert sum_numbers(x)==sum(x)
 
 def test_sum_numbers_empty():
     # what's the sum of an empty list?
-    pass
+    assert sum_numbers([])==0
 
 #@pytest.mark.xfail(strict=True, raises=TypeError)
 def test_sum_strings():
